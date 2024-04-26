@@ -1,7 +1,4 @@
 <?php
-//php automatically converts a variables datatype
-
-
 //PHP Installation
     // Download xampp
     // Install Xampp
