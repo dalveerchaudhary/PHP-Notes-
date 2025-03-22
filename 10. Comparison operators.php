@@ -13,7 +13,7 @@
 // <=>	Spaceship	                 $x <=> $y	    Returns an integer less than, equal to, or greater than zero, depending on if $x is less than, equal to, or greater than $y. Introduced in PHP 7
 
 
-// Value Equal 
+// Check Value Equal 
 //== Equal to / $x == $y 
 $x = 100;
 $y = "100";
@@ -56,14 +56,14 @@ var_dump($x < $y);
 
 
 //>= Greater than or equal to  /  $x x> $y
-$x = 50;
+$x = 51;
 $y = 50;
 var_dump($x >= $y);
 
 
 //<= Less than or equal to  / $x <= $y
 $x = 50;
-$y = 50;
+$y = 51;
 var_dump($x <= $y);
 echo "<br>";
 
