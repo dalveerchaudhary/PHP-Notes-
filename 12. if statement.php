@@ -11,9 +11,9 @@ if ($t < 20) {
     echo "dalveer singh <br>";
 }
 
-//new syntax
+//php new syntax
 $a = 12;
-$b = 19;
+$b = 15;
 if ($a == $b):
     echo "new syntax <br>";
 endif;

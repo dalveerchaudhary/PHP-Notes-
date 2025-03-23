@@ -1,5 +1,7 @@
 
 <?php
+//variable are abstract storage location
+//starts with $ sign
 //variable and line break used <br>
 $var = 'dalveer';
 echo $var;
