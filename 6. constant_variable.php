@@ -1,7 +1,10 @@
 <?php
 // constant variables are global variables
-// Cant use $ sign with constant variable name.
+// Constants do not have a dollar sign ( $ )
 // not re define and value not re assign
+
+Syntax:
+// define(name, value);
 
 define("test", 50);
 // echo test;
