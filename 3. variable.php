@@ -28,3 +28,7 @@ $city = $b = 'jaipur<br>';
 echo $city;
 
 echo $b;
+
+//connection used 
+$car = "bmw";
+echo "<h1>" . $car . "</h1>";
