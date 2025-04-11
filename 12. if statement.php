@@ -1,9 +1,17 @@
 <?php
 // if statement one condition is true in executes code
 
+Syntax:
+// if (condition) {
+// code to be executed if condition is true;
+// }
+// code to be executed if condition is false;
+
 if (22 > 20) {
     echo "Have a good day <br>";
 }
+echo "Have a not work <br>";
+
 
 //if statement We can use variables
 $t = 14;
