@@ -4,9 +4,6 @@
 // .=
 
 
-
-
-
 // Concatenation Used dote .   
 $txt1 = "My";
 $txt2 = " name ";
