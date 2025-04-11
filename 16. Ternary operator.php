@@ -1,8 +1,14 @@
 <?php
 // conditional expression provides a shorthand way return if the condition is true, and false 
+// Single conditional used 
 
 Syntax:
-// variable = (condition) ? expressionTrue : expressionFalse;
+// variable = (condition) ? expression True : expression False;
+
+//
+$f = 10;
+($f > 20) ? $g = "name greater "  : $g = "name smaller <br>";
+echo $g;
 
 // Simple 
 $d = 32;
