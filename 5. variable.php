@@ -1,8 +1,11 @@
 
 <?php
-//variable are abstract storage location
-//starts with $ sign
-//variable and line break used <br>
+// variable are used store location data 
+// No need to declare the type PHP is loosely typed
+// Start with $ sign
+// Variable names are case-sensitive
+// Variable and line break used in <br>
+// 
 $var = 'dalveer';
 echo $var;
 echo '<br>';

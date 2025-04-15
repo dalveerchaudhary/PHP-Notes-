@@ -36,3 +36,7 @@ function percentage($st)
 $total = sum(62, 51, 83, 96);
 echo $total;
 percentage($total);
+
+
+// Functions with Argument
+function test() {}

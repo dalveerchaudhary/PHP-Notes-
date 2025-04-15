@@ -1,7 +1,7 @@
 
 <?php
 // Used echo show the output 
-// Can output multiple values separated by commas 
+// Can output multiple values separated by use , comma
 // Does not return a value
 // Can be used with or without parentheses
 // speed Generally faster
@@ -34,7 +34,7 @@ echo '<p>Study PHP at ' . $txt2 . '</p>';
 //************************************************************************************************************************** */
 // Print
 // Can only output a single value.
-// Always returns 1.
+// Always returns a value 1.
 // speed slower than
 // Can be used with or without parentheses.
 
