@@ -11,7 +11,9 @@ name();
 
 
 
-//Parameters multi time used 
+// Parameters multi time used 
+// Declared within the parentheses of the function definition. 
+// Serve as placeholders for the values that will be passed to the function
 function name1($fnam, $lnam)
 {
     echo "Hello $fnam $lnam <br>";
@@ -20,7 +22,7 @@ name1("dalveer", "singh");
 name1("jaipur", "Royal green");
 
 
-//Functions with return value and percentage
+// Functions with return value and percentage
 function sum($c, $java, $php, $react)
 {
     $s = $c + $java + $php + $react;
@@ -38,5 +40,24 @@ echo $total;
 percentage($total);
 
 
-// Functions with Argument
-function test() {}
+// Functions with Arguments
+// PHP supports passing arguments by value (default), passing by reference, and even default argument values. 
+// Passing Arguments by Value: 
+// A copy of the argument's value is passed to the function, so changes inside the function do not affect the original variable. 
+
+function test($string) {}
+$str = "This is a Passing Arguments by Value <br>";
+test($str);
+echo $str;
+
+
+// Passing Arguments By reference:
+// The original variable is passed to the function, so changes inside the function directly modify the original variable. 
+// This is indicated by using the & symbol before the parameter name in the function definition.  
+function testing(&$string)
+{
+    $string = "this is not a Passing Arguments By reference";
+}
+$str = "This is a Passing Arguments by Value";
+testing($str);
+echo $str;
