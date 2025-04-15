@@ -56,8 +56,39 @@ echo $str;
 // This is indicated by using the & symbol before the parameter name in the function definition.  
 function testing(&$string)
 {
-    $string = "this is not a Passing Arguments By reference";
+    $string = "this is not a Passing Arguments By reference <br>";
 }
-$str = "This is a Passing Arguments by Value";
+$str = "This is a Passing Arguments by Value <br>";
 testing($str);
 echo $str;
+
+
+// Variable Functions call
+
+// Call used in variable 
+function wow($na)
+{
+    echo "Hello $na";
+}
+$func = "wow";         // Store function name in variable
+$func("dharmveer singh <br>"); // Call function using variable
+
+
+
+// Anonymous Functions
+// Anonymous function, also called a closure, is a function without a specified name
+$sayhello = function ($name) {
+    echo "Hello $name";
+};
+$sayhello("dalveer singh");
+
+// Recursive Function 
+function display($number)
+{
+    if ($number <= 5) {
+        echo "$number <br>";
+        display($number + 1);
+    }
+}
+display(0);
+// Factorial Number
