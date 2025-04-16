@@ -80,9 +80,10 @@ $func("dharmveer singh <br>"); // Call function using variable
 $sayhello = function ($name) {
     echo "Hello $name";
 };
-$sayhello("dalveer singh");
+$sayhello("dalveer singh <br>");
 
 // Recursive Function 
+// A function that calls itself in its own body. 
 function display($number)
 {
     if ($number <= 5) {
@@ -90,5 +91,28 @@ function display($number)
         display($number + 1);
     }
 }
-display(0);
-// Factorial Number
+display(1);
+// Factorial Number Concept 
+// A factorial, denoted by is the product of all positive integers less than or equal to n. For example, 5! = 5 * 4 * 3 * 2 * 1 = 120.
+// It's a mathematical concept, not a programming concept, though it can be calculated using code. 
+
+// First program Factorial used in if else statement
+function factorial($n)
+{
+    if ($n <= 1) {
+        return 1;
+    } else {
+        return ($n * factorial($n - 1));
+    }
+}
+$number = 5;
+echo "Factorial of $number is: " . factorial($number);
+
+// Second Program Factorial used for Loop 
+$number = 5;
+$factorial = 1;
+
+for ($i = 1; $i <= $number; $i++) {
+    $factorial *= $i;
+}
+echo " <br> Factorial of $number is: $factorial ";
