@@ -17,6 +17,8 @@ foreach ($age as $value) {
 }
 
 // Second Program
+
+// Print both the key and the value from array
 $age = ["dalveer" => 26, "dharmveer" => 27];
 
 foreach ($age as $key => $value) {
