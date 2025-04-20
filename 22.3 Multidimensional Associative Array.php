@@ -39,10 +39,23 @@ $marks1 = [
         "html" => 89
     ]
 ];
+echo "<table border='2px' cellpadding='5px' cellspacing='0'
+   <tr>
+    <th> Student Name</th>
+    <th> Physics</th>
+    <th> Maths</th>
+    <th> Html</th>
+
+   </tr>
+
+>";
 foreach ($marks1 as $key => $v1) {
-    echo $key;
+
+    echo "<tr> 
+         <td>$key</td>";
     foreach ($v1 as $v2) {
-        echo $v2;
+        echo "<td> $v2 </td>";
     }
-    echo "<br>";
+    echo "</tr>";
 }
+echo "</table>";
