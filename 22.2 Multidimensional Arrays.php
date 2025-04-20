@@ -1,5 +1,8 @@
 <?php
-// Multidimensional Array same used Nested Array
+// Multidimensional Array same used Nested Array Index Array
+// In the previous pages, we have described arrays that are a single list of key/value pairs
+// For a two-dimensional array you need two indices to select an element
+// multidimensional array is an array where each element is itself another array, creating a nested structure
 
 
 // Multidimensional Array
