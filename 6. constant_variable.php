@@ -6,6 +6,7 @@
 Syntax:
 // define(name, value);
 
+//
 define("test", 50);
 // echo test
 $sum = test + 20;

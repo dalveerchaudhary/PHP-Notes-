@@ -23,8 +23,7 @@ Syntax:
 
 
 // Single Case used 
-$weekday = 8;
-
+$weekday = 7;
 switch ($weekday) {
     case 1:
         echo "Monday";

@@ -5,7 +5,7 @@ Syntax:
 // if (condition) {
 // code to be executed if condition is true;
 // } else {
-// code to be executed if condition is false;
+// code to be executed if first condition is false and this condition is true;
 // }
 
 

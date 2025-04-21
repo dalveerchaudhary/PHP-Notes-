@@ -1,4 +1,7 @@
 <?php
+// Variables can store data of different types, and different data types
+
+
 //string
 $x = "hello <br>";
 var_dump($x);

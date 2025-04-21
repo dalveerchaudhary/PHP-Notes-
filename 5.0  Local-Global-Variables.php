@@ -25,4 +25,17 @@ function test()
     $x = $x + $y;
 }
 test();
-echo "This is Global Variables $x";
+echo "This is Global Variables $x <br>";
+
+
+
+// Not work this program
+function testing()
+{
+    global $a, $b;
+    $a = $a + $b;
+}
+testing();
+echo "This is Global Variables $a";
+$a = 10;
+$b = 20;
