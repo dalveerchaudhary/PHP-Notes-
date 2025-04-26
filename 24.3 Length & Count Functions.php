@@ -26,15 +26,23 @@ echo strlen($str);  // 13
 // Syntax :-
 //  str_word_count(string,return,char)
 
+// used for string 
 $str1 = "Hello world dalveer singh";
-echo str_word_count($str1);
+echo str_word_count($str1); // 4
 
+// used for string to return
+$str2 = "Hello world dalveer singh";
+$array = str_word_count($str2, 2);
 
-
-
+echo "<pre>";
+print_r($array);
+echo "</pre>";
 
 
 
 
 // *************************************************************************************
 // 
+
+// Syntax :-
+// substr_count(string,substring,start,length)
