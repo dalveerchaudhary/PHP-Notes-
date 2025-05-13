@@ -10,8 +10,7 @@ echo strlen($str);  // 13
 
 
 
-// *************************************************************************************
-
+// ************************************************************************************ 
 // Str_word_count() 
 // function counts the number of words in a string.
 
@@ -30,12 +29,20 @@ echo strlen($str);  // 13
 $str1 = "Hello world dalveer singh";
 echo str_word_count($str1); // 4
 
-// used for string to return
+// used for string to return 1
 $str2 = "Hello world dalveer singh";
-$array = str_word_count($str2, 2);
+$array = str_word_count($str2, 1);
 
 echo "<pre>";
 print_r($array);
+echo "</pre>";
+
+// used for string to return 2
+$str3 = "Hello world dalveer singh";
+$array1 = str_word_count($str3, 2);
+
+echo "<pre>";
+print_r($array1);
 echo "</pre>";
 
 
