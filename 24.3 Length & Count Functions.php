@@ -49,7 +49,17 @@ echo "</pre>";
 
 
 // *************************************************************************************
-// 
+//  substr_count() 
+// function counts the number of times a substring occurs in a string.
+// The substring is case-sensitive.
+
+// string ::-  Required. Specifies the string to check
+// substring ::-  Required. Specifies the string to search for
+// start ::-  Optional. Specifies where in string to start searching. If negative, it starts counting from the end of the string
+// length ::-  Optional. Specifies the length of the search
 
 // Syntax :-
 // substr_count(string,substring,start,length)
+
+$strs = "hello dalveer my name dalveer singh";
+echo substr_count($strs, "dalveer", 1, 30);
