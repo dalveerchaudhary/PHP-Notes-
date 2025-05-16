@@ -12,10 +12,10 @@
 // strpos(string,find,start)
 
 $str = "hello world. the world is nice";
-echo strpos($str, "world", 4) . "<br>";
+echo strpos($str, "world") . "<br>";
 
 $str1 = "hello world. the world is nice";
-echo strpos($str1, "world", -19) . "<br>";
+echo strpos($str1, "world", 15) . "<br>";
 
 
 // strrpos() 
@@ -48,7 +48,8 @@ echo strrpos($str2, "world") . "<br>";
 // stripos(string,find,start)
 
 
-
+$str3 = "hello WORLD. the WORLD is nice";
+echo stripos($str3, "world") . "<br>";
 
 
 
@@ -62,3 +63,6 @@ echo strrpos($str2, "world") . "<br>";
 
 // Syntax :-
 // strripos(string,find,start)
+
+$str2 = "hello WORLD. the WORLD is nice";
+echo strripos($str2, "world") . "<br>";
