@@ -10,5 +10,5 @@
    . If, else, switch
 5. Loops <br>
    . for, while, do-while, for...of, for...in
-
+6. 
    
